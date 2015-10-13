@@ -1,4 +1,9 @@
 <?php 
+/*
+	Codigo de ejemplo de los parametros de la funcion SMTP de la clase
+	PHPMailer para el envío de correo electrónico..
+*/ 
+
 	include ("../funciones.php");
 	require_once ("../class.phpmailer.php");
 	include ("../class.smtp.php");
