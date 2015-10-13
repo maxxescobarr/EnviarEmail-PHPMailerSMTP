@@ -11,7 +11,7 @@
 	
 	$DestinatarioEmail	=	$_POST["email"];
 	$DestinatarioNombre	=	$_POST["nombre"];
-	$TAsunto	=	$_POST["asunto"];
+	$TAsunto			=	$_POST["asunto"];
 	$fecha=date("Y/m/d");
 
 	$txtAsunto=$TAsunto.' - '.$fecha;
